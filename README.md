@@ -1,4 +1,7 @@
 # ripple-address-codec-rust
+[![Crates.io: hex](https://img.shields.io/crates/v/ripple-address-codec.svg)](https://crates.io/crates/ripple-address-codec)
+[![Documentation](https://docs.rs/ripple-address-codec/badge.svg)](https://docs.rs/ripple-address-codec)
+[![Build Status (Github Actions)](https://github.com/otov4its/ripple-address-codec-rust/workflows/ci/badge.svg?master)](https://github.com/otov4its/ripple-address-codec-rust/actions)
 
 _\* ripple-address-codec-rust is a **Rust port** of the original JavaScript/TypeScript [ripple-address-codec](https://github.com/ripple/ripple-address-codec)_
 
