@@ -10,6 +10,6 @@
 - [ ] Git: commit changes
 - [ ] Git: push
 - [ ] CI: wait success or repeat...
-- [ ] Git: add version annotated tag
-- [ ] Git: push tags
+- [ ] Git: add version annotated tag `git tag -a vX.Y.Z`
+- [ ] Git: push tags `git push origin vX.Y.Z`
 - [ ] Run `cargo publish`
