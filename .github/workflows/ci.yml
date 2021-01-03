@@ -34,9 +34,6 @@ jobs:
       - name: Test
         run: cargo test --verbose
       
-      - name: Doc
-        run: cargo doc --no-deps --verbose
-
   rustfmt:
       name: rustfmt
       runs-on: ubuntu-latest
@@ -56,3 +53,22 @@ jobs:
       - name: Check formatting
         run: |
           cargo fmt --all -- --check
+  
+  doc:
+      name: doc
+      runs-on: ubuntu-latest
+
+      steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          override: true
+          profile: minimal
+          components: rust-docs
+
+      - name: Doc
+        run: cargo doc --no-deps --verbose
