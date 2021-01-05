@@ -1,6 +1,6 @@
 [package]
 name = "ripple-address-codec"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Stanislav Otovchits <otov4its@gmail.com>"]
 description = "Encodes/decodes base58 encoded XRP Ledger identifiers"
 license = "Apache-2.0"

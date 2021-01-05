@@ -8,7 +8,7 @@
 - [ ] Run `cargo update`
 - [ ] Run `cargo test`
 - [ ] Run `cargo doc`
-- [ ] Git: `git commit -a -m ""`
+- [ ] Git: `git commit -a -m "Release vX.Y.Z"`
 - [ ] Git: `git push origin master`
 - [ ] CI: wait success or repeat...
 - [ ] Git: add version annotated tag `git tag -a vX.Y.Z`
