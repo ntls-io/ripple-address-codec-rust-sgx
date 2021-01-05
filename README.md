@@ -7,11 +7,9 @@ _\* ripple-address-codec-rust is a **Rust port** of the original JavaScript/Type
 
 Functions for encoding and decoding XRP Ledger addresses and seeds.
 
-
 ## Documentation
 
 [Documentation](https://docs.rs/ripple-address-codec/)
-
 
 ## Release history
 
@@ -23,7 +21,6 @@ See [HISTORY.md](HISTORY.md)
 $ cargo test
 ```
 
-
 ## License
 
-Licensed under ISC license [LICENSE-ISC](LICENSE-ISC)
+Licensed under Apache-2.0 license [LICENSE](LICENSE)
