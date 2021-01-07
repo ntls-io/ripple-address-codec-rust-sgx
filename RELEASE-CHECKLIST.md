@@ -10,7 +10,7 @@
 - [ ] Run `cargo doc`
 - [ ] Git: `git commit -a -m "Release vX.Y.Z"`
 - [ ] Git: `git push origin master`
-- [ ] CI: wait success or repeat...
+- [ ] Github CI: wait for success or repeat...
 - [ ] Git: add version annotated tag `git tag -a vX.Y.Z`
 - [ ] Git: push tags `git push origin vX.Y.Z`
-- [ ] Run `cargo publish`
+- [ ] Github CD: wait for cargo publish and check it out on https://crates.io

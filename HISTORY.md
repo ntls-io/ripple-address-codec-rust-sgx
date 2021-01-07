@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### Changed:
+
+* RELEASE-CHECKLIST.md due to Github CD action
+
 ### Repository organizational issues:
 
 * Added CD Github action (publish to crates.io)
