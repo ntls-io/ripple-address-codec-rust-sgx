@@ -4,6 +4,7 @@
 
 ### Repository organizational issues:
 
+* Added CD Github action (publish to crates.io)
 * Amended HISTORY.md
 * Fixed badges
 
