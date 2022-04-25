@@ -20,6 +20,12 @@
 #![doc(test(attr(deny(warnings))))]
 #![doc(html_root_url = "https://docs.rs/ripple-address-codec/0.1.1")]
 
+#![no_std]
+
+extern crate sgx_tstd as std;
+
+use std::prelude::v1::*;
+
 use std::{convert::TryInto, result};
 
 use base_x;

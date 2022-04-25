@@ -11,11 +11,28 @@ categories = ["cryptography::cryptocurrencies", "encoding"]
 edition = "2018"
 
 
+# SGX: No test harness.
+autotests = false
+
+[lib]
+test = false
+doctest = false
+bench = false
+
+
 [dependencies]
-base-x = "0.2.8"
-ring = "0.16.18"
+base-x = { version = "0.2.8", default-features = false }
+ring = { version = "0.16.19", git = "https://github.com/mesalock-linux/ring-sgx" }
+
+sgx_tstd = { git = "https://github.com/apache/teaclave-sgx-sdk.git" }
 
 
 [dev-dependencies]
-hex = "0.4.2"
+hex = { version = "0.4.2", default-features = false, features = ["alloc"] }
 rand = "0.8.0"
+
+
+[patch.'https://github.com/apache/teaclave-sgx-sdk.git']
+sgx_libc = { git = "https://github.com/apache/incubator-teaclave-sgx-sdk" }
+sgx_trts = { git = "https://github.com/apache/incubator-teaclave-sgx-sdk" }
+sgx_tstd = { git = "https://github.com/apache/incubator-teaclave-sgx-sdk" }
